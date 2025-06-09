@@ -1,0 +1,38 @@
+#wrap{
+    margin: 0 auto;
+    width: 1980px;
+    height: 100vh;
+}
+
+.logo{
+    height: 400px;
+    display: flex;
+    width: 1700px;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+
+    h4{
+        font-size: 50px;
+    }
+
+
+.logo1, .logo2, .logo3, .logo4{
+    img{
+        cursor: pointer;
+    width: 80%;  
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #9a3f61;
+    }
+}
+
+.sc1, .sc2, .sc3, .sc4{
+    height: 800px;
+    background-color: #FFDCE3;
+    margin: 50px;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
