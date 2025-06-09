@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../situation.css">
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.logo1').addEventListener('click', () => {
+      document.getElementById('sc1').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo2').addEventListener('click', () => {
+      document.getElementById('sc2').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo3').addEventListener('click', () => {
+      document.getElementById('sc3').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo4').addEventListener('click', () => {
+      document.getElementById('sc4').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+<body>
+  <div id="wrap">
+    <div class="header">
+      
+      <img src="../img/image 28.png" alt="" height="271"></div>
+      <h4>🌟 상황별 요리 추천 🌟</h4>
+    <div class="logo">
+    
+      <div class="logo1">
+      <img src="../img/image 31.png" alt=""></div>
+      <div class="logo2">
+      <img src="../img/image 30.png" alt=""></div>
+      <div class="logo3">
+      <img src="../img/image 32.png" alt=""></div>
+      <div class="logo4">
+      <img src="../img/image 29.png" alt=""></div>
+
+    </div>
+
+    <div class="sc1" id="sc1"><h3>💪 다이어트 중일 때</h3></div>
+    <div class="sc2" id="sc2"><h3>🤒 아플 때</h3></div>
+    <div class="sc3" id="sc3"><h3>🍚 한 끼 식사가 필요할 때</h3></div>
+    <div class="sc4" id="sc4"><h3>🍱 반찬이 필요할 때</h3></div>
+
+    <div class="footer">
+      <img src="../img/image 27.png" alt="">
+    </div>
+
+
+  </div>
+</body>
+</html>

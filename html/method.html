@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../method.css">
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.logo1').addEventListener('click', () => {
+      document.getElementById('sc1').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo2').addEventListener('click', () => {
+      document.getElementById('sc2').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo3').addEventListener('click', () => {
+      document.getElementById('sc3').scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.querySelector('.logo4').addEventListener('click', () => {
+      document.getElementById('sc4').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+<body>
+  <div id="wrap">
+    <div class="header">
+      
+      <img src="../img/image 28.png" alt="" height="271"></div>
+      <h4>🌟 조리방식별 요리 추천 🌟</h4>
+    <div class="logo">
+    
+      <div class="logo1">
+      <img src="../img/image 39.png" alt=""></div>
+      <div class="logo2">
+      <img src="../img/image 40.png" alt=""></div>
+      <div class="logo3">
+      <img src="../img/image 37.png" alt=""></div>
+      <div class="logo4">
+      <img src="../img/image 38.png" alt=""></div>
+
+    </div>
+
+    <div class="sc1" id="sc1"><h3>🔥 볶기 레시피</h3></div>
+    <div class="sc2" id="sc2"><h3>🥘 끓이기 레시피</h3></div>
+    <div class="sc3" id="sc3"><h3>🥗 불 사용하지 않는 레시피</h3></div>
+    <div class="sc4" id="sc4"><h3>🍳 굽는 레시피</h3></div>
+
+    <div class="footer">
+      <img src="../img/image 27.png" alt="">
+    </div>
+
+
+  </div>
+</body>
+</html>
+
+
